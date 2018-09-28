@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace A2
 {
-    public enum Campus { Hobart, Launceston };
-    public enum Category { Academic, Technical, Administrative, Casual };
+    public enum campus { Hobart, Launceston };
+    public enum category { Academic, Technical, Administrative, Casual };
     class Staff
     {
-        public int Id {get; set; }
-		public string FamilyName { get; set; }
-		public string GivenName { get; set; }
-		public string Title { get; set; }
-        public Campus Campus { get; set; }
-        public string Room { get; set; }
-        public string Email { get; set; }
-		public string Photo { get; set; }
-        public Category Category { get; set; }
+        public int id {get; set; }
+		public string familyName { get; set; }
+		public string givenName { get; set; }
+		public string title { get; set; }
+        public campus campus { get; set; }
+        public string room { get; set; }
+        public string rmail { get; set; }
+		public string photo { get; set; }
+        public category category { get; set; }
     }
 }

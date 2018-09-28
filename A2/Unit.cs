@@ -8,5 +8,8 @@ namespace A2
 {
     class Unit
     {
+        public string code { get; set; }
+        public string titleUnit { get; set; }
+        public int coordinator { get; set; }
     }
 }
