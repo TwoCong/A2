@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace A2
 {
-    class Program
+    class Class
     {
-        static void Main(string[] args)
-        {
-            //just testing whether it can be changed or not
-
-        }
     }
 }
